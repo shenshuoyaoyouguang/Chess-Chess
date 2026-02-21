@@ -1,0 +1,16 @@
+D:\AI\SharkChess\obj\Debug\net8.0-windows\SharkChess.csproj.AssemblyReference.cache
+D:\AI\SharkChess\obj\Debug\net8.0-windows\Styles\CommonStyles.baml
+D:\AI\SharkChess\obj\Debug\net8.0-windows\Themes\ChineseStyleTheme.baml
+D:\AI\SharkChess\obj\Debug\net8.0-windows\Themes\StandardTheme.baml
+D:\AI\SharkChess\obj\Debug\net8.0-windows\Themes\TeachingTheme.baml
+D:\AI\SharkChess\obj\Debug\net8.0-windows\Views\Controls\ChessPiece\ChessPieceControl.baml
+D:\AI\SharkChess\obj\Debug\net8.0-windows\Views\Controls\ChessPiece\PieceDecorationResources.baml
+D:\AI\SharkChess\obj\Debug\net8.0-windows\Views\Controls\ResultDialog.baml
+D:\AI\SharkChess\obj\Debug\net8.0-windows\App.baml
+D:\AI\SharkChess\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\AI\SharkChess\obj\Debug\net8.0-windows\Views\Controls\ChessPiece\ChessPieceControl.g.cs
+D:\AI\SharkChess\obj\Debug\net8.0-windows\Views\Controls\ResultDialog.g.cs
+D:\AI\SharkChess\obj\Debug\net8.0-windows\App.g.cs
+D:\AI\SharkChess\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\AI\SharkChess\obj\Debug\net8.0-windows\SharkChess_MarkupCompile.cache
+D:\AI\SharkChess\obj\Debug\net8.0-windows\SharkChess_MarkupCompile.lref

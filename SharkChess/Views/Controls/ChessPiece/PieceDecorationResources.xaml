@@ -1,0 +1,94 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- ================================================================
+         中国象棋棋子装饰纹样资源库（简约精致版）
+         
+         设计理念：统一简约装饰，干净优雅
+         - 所有棋子使用相同的简约装饰样式
+         - 单层细线圆环 + 4 个圆点点缀
+         ================================================================ -->
+
+    <!-- ========== 棋子基础形状 ========== -->
+    
+    <!-- 主圆形（直径90，中心50,50） -->
+    <Geometry x:Key="PieceCircle">
+        F1 M 50,5 A 45,45 0 1 1 50,95 A 45,45 0 1 1 50,5 Z
+    </Geometry>
+    
+    <!-- 外圈边框（直径96） -->
+    <Geometry x:Key="PieceOuterRing">
+        F1 M 50,2 A 48,48 0 1 1 50,98 A 48,48 0 1 1 50,2 Z
+    </Geometry>
+    
+    <!-- 内圈边框（直径84） -->
+    <Geometry x:Key="PieceInnerRing">
+        F1 M 50,10 A 40,40 0 1 1 50,90 A 40,40 0 1 1 50,10 Z
+    </Geometry>
+
+    <!-- ========== 统一简约装饰纹样 ========== -->
+    
+    <!-- 简约装饰环（单层细线，内缩 12px） -->
+    <Geometry x:Key="SimpleElegantRing">
+        F1 M 50,14 A 36,36 0 1 1 14,50 A 36,36 0 1 1 50,14 Z
+    </Geometry>
+    
+    <!-- 四点简约点缀（上下左右） -->
+    <GeometryGroup x:Key="FourDotAccent">
+        <!-- 上 -->
+        <EllipseGeometry Center="50,12" RadiusX="2.5" RadiusY="2.5"/>
+        <!-- 下 -->
+        <EllipseGeometry Center="50,88" RadiusX="2.5" RadiusY="2.5"/>
+        <!-- 左 -->
+        <EllipseGeometry Center="12,50" RadiusX="2.5" RadiusY="2.5"/>
+        <!-- 右 -->
+        <EllipseGeometry Center="88,50" RadiusX="2.5" RadiusY="2.5"/>
+    </GeometryGroup>
+    
+    <!-- 八点装饰（对角线额外点缀） -->
+    <GeometryGroup x:Key="EightDotAccent">
+        <!-- 主四方 -->
+        <EllipseGeometry Center="50,12" RadiusX="2" RadiusY="2"/>
+        <EllipseGeometry Center="50,88" RadiusX="2" RadiusY="2"/>
+        <EllipseGeometry Center="12,50" RadiusX="2" RadiusY="2"/>
+        <EllipseGeometry Center="88,50" RadiusX="2" RadiusY="2"/>
+        <!-- 对角 -->
+        <EllipseGeometry Center="25,25" RadiusX="1.5" RadiusY="1.5"/>
+        <EllipseGeometry Center="75,25" RadiusX="1.5" RadiusY="1.5"/>
+        <EllipseGeometry Center="25,75" RadiusX="1.5" RadiusY="1.5"/>
+        <EllipseGeometry Center="75,75" RadiusX="1.5" RadiusY="1.5"/>
+    </GeometryGroup>
+
+    <!-- ========== 组合装饰样式 ========== -->
+    
+    <!-- 将/帅专用：双环 + 四点（最精致） -->
+    <GeometryGroup x:Key="KingDecoration">
+        <!-- 外环 -->
+        <EllipseGeometry Center="50,50" RadiusX="38" RadiusY="38"/>
+        <!-- 内环 -->
+        <EllipseGeometry Center="50,50" RadiusX="32" RadiusY="32"/>
+    </GeometryGroup>
+    
+    <!-- 车/炮专用：单环 + 四点 -->
+    <GeometryGroup x:Key="ChariotDecoration">
+        <EllipseGeometry Center="50,50" RadiusX="36" RadiusY="36"/>
+    </GeometryGroup>
+    
+    <!-- 象/士/马/兵专用：单环（简约） -->
+    <GeometryGroup x:Key="SimpleDecoration">
+        <EllipseGeometry Center="50,50" RadiusX="36" RadiusY="36"/>
+    </GeometryGroup>
+
+    <!-- ========== 选中/高亮效果 ========== -->
+    
+    <!-- 选中光环 -->
+    <Geometry x:Key="SelectionGlow">
+        F1 M 50,0 A 50,50 0 1 1 50,100 A 50,50 0 1 1 50,0 Z
+    </Geometry>
+    
+    <!-- 合法走法提示点 -->
+    <Geometry x:Key="LegalMoveDot">
+        F1 M 50,45 A 5,5 0 1 1 50,55 A 5,5 0 1 1 50,45 Z
+    </Geometry>
+
+</ResourceDictionary>

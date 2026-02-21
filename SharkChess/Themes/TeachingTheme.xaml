@@ -1,0 +1,26 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- 教学专用版主题资源 -->
+    <SolidColorBrush x:Key="TeachingBoardBackground" Color="#F5DEB3"/>
+    <SolidColorBrush x:Key="TeachingLineColor" Color="#2F4F4F"/>
+    <SolidColorBrush x:Key="TeachingRiverText" Color="#2F4F4F"/>
+    <SolidColorBrush x:Key="TeachingCoordinate" Color="#2F4F4F"/>
+    <SolidColorBrush x:Key="TeachingPalaceLine" Color="#8B0000"/>
+    
+    <SolidColorBrush x:Key="TeachingRedPieceBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="TeachingRedPieceBorder" Color="#FF0000"/>
+    <SolidColorBrush x:Key="TeachingRedPieceText" Color="#FF0000"/>
+    
+    <SolidColorBrush x:Key="TeachingBlackPieceBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="TeachingBlackPieceBorder" Color="#000000"/>
+    <SolidColorBrush x:Key="TeachingBlackPieceText" Color="#000000"/>
+
+    <SolidColorBrush x:Key="TeachingSelectionHighlight" Color="#FF1493"/>
+    <SolidColorBrush x:Key="TeachingLegalMoveHint" Color="#32CD32"/>
+
+    <!-- 教学版特殊区域高亮 -->
+    <SolidColorBrush x:Key="TeachingPalaceHighlight" Color="#FFE4B580"/>
+    <SolidColorBrush x:Key="TeachingRiverHighlight" Color="#87CEEB40"/>
+
+</ResourceDictionary>
